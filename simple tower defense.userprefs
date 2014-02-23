@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\EnemySpawnerScript.cs">
+    <Files>
+      <File FileName="Assets\scripts\TowerDetectEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\EnemyScript.cs" Line="42" Column="24" />
+      <File FileName="Assets\scripts\Tower2Shoot.cs" Line="45" Column="31" />
+      <File FileName="Assets\scripts\HomingMissileScript.cs" Line="25" Column="24" />
+      <File FileName="Assets\scripts\EnemySpawnerScript.cs" Line="17" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
