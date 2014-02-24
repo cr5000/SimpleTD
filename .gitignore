@@ -216,3 +216,4 @@ pip-log.txt
 Library/metadata/**
 Temp/**
 Library/CurrentLayout.dwlt
+Library/ScriptAssemblies/CompilationCompleted.txt
