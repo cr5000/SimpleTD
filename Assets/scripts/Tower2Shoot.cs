@@ -36,13 +36,25 @@ public class Tower2Shoot : MonoBehaviour {
 			}
 		}
 	}
-	
-	void OnTriggerEnter2D(Collider2D other)
+
+	//when there is an enemy in the trigger radius
+	void OnTriggerStay2D(Collider2D other)
 	{
-		if (other.tag == "Enemy")
+		if (currentTarget == null)
 		{
 			currentTarget = other.gameObject;
-//			print("target acquired");
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if (currentTarget == null)
+		{
+			if (other.tag == "Enemy")
+			{
+				currentTarget = other.gameObject;
+	//			print("target acquired");
+			}
 		}
 	}
 	
