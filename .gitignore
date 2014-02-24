@@ -213,7 +213,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-Library/ScriptAssemblies/*.txt
+Library/ScriptAssemblies/**
 Library/metadata/**
 Temp/**
 Library/CurrentLayout.dwlt
